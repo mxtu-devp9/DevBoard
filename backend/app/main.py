@@ -22,6 +22,7 @@ app.include_router(users_router)
 app.include_router(projects_router)
 
 
+
 @app.get("/")
 def root():
     return {
